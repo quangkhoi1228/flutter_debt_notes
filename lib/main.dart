@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_exe/pages/Home.dart';
+import 'package:wallet_exe/pages/HomePage.dart';
 import 'package:wallet_exe/themes/Css.dart';
-import 'package:wallet_exe/utils/DBHelper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

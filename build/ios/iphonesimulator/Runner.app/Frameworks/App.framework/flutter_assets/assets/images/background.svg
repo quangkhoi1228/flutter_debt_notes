@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 373 667" width="373" height="667">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M0 0L375 0L375 667L0 667Z" />
+		</clipPath>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="187.5" y1="21.814" x2="187.5" y2="667">
+			<stop offset="0" stop-color="#fac661"  />
+			<stop offset="1" stop-color="#f76b1c"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="96.382" y1="305.776" x2="91.548" y2="438.415">
+			<stop offset="0" stop-color="#fad961"  />
+			<stop offset="1" stop-color="#f88e32" stop-opacity="0" />
+		</linearGradient>
+		<linearGradient id="grd3" gradientUnits="userSpaceOnUse"  x1="267.438" y1="314.402" x2="272.128" y2="454.133">
+			<stop offset="0" stop-color="#fad961"  />
+			<stop offset="1" stop-color="#f89033" stop-opacity="0" />
+		</linearGradient>
+		<linearGradient id="grd4" gradientUnits="userSpaceOnUse"  x1="135.833" y1="431.707" x2="135.833" y2="528.098">
+			<stop offset="0" stop-color="#f89838"  />
+			<stop offset="1" stop-color="#fbda61" stop-opacity="0" />
+		</linearGradient>
+		<linearGradient id="grd5" gradientUnits="userSpaceOnUse"  x1="376.359" y1="434.799" x2="376.359" y2="577.603">
+			<stop offset="0" stop-color="#f89838"  />
+			<stop offset="1" stop-color="#fbda61" stop-opacity="0" />
+		</linearGradient>
+		<linearGradient id="grd6" gradientUnits="userSpaceOnUse"  x1="155.5" y1="379.056" x2="155.5" y2="406.64">
+			<stop offset="0" stop-color="#e98b36"  />
+			<stop offset="1" stop-color="#e1832d"  />
+		</linearGradient>
+		<linearGradient id="grd7" gradientUnits="userSpaceOnUse"  x1="155.5" y1="388.72" x2="155.5" y2="398.388">
+			<stop offset="0" stop-color="#e98b36"  />
+			<stop offset="1" stop-color="#e1832d"  />
+		</linearGradient>
+		<linearGradient id="grd8" gradientUnits="userSpaceOnUse"  x1="155.5" y1="378.528" x2="155.5" y2="392.32">
+			<stop offset="0" stop-color="#e98b36"  />
+			<stop offset="1" stop-color="#e1832d"  />
+		</linearGradient>
+		<linearGradient id="grd9" gradientUnits="userSpaceOnUse"  x1="155.5" y1="460.151" x2="155.5" y2="437.963">
+			<stop offset="0" stop-color="#e98b36"  />
+			<stop offset="1" stop-color="#e1832d"  />
+		</linearGradient>
+		<linearGradient id="grd10" gradientUnits="userSpaceOnUse"  x1="155.5" y1="452.377" x2="155.5" y2="444.601">
+			<stop offset="0" stop-color="#e98b36"  />
+			<stop offset="1" stop-color="#e1832d"  />
+		</linearGradient>
+		<linearGradient id="grd11" gradientUnits="userSpaceOnUse"  x1="155.5" y1="460.575" x2="155.5" y2="449.482">
+			<stop offset="0" stop-color="#e98b36"  />
+			<stop offset="1" stop-color="#e1832d"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: #ffe7bd } 
+		.shp2 { fill: url(#grd2) } 
+		.shp3 { fill: url(#grd3) } 
+		.shp4 { fill: #f9c052 } 
+		.shp5 { opacity: 0.11;fill: #ffffff } 
+		.shp6 { fill-opacity: 0.161;fill: url(#grd4) } 
+		.shp7 { fill-opacity: 0.161;fill: url(#grd5) } 
+		.shp8 { fill: #d47a26 } 
+		.shp9 { fill: url(#grd6) } 
+		.shp10 { fill: url(#grd7) } 
+		.shp11 { fill: url(#grd8) } 
+		.shp12 { fill: url(#grd9) } 
+		.shp13 { fill: url(#grd10) } 
+		.shp14 { fill: url(#grd11) } 
+		.shp15 { fill: #e1832d } 
+	</style>
+	<g id="After Noon" clip-path="url(#cp1)">
+		<path id="bg" class="shp0" d="M0 0L375 0L375 667L0 667L0 0Z" />
+		<path id="sun" class="shp1" d="M235.5 334C251.79 334 265 320.79 265 304.5C265 288.21 251.79 275 235.5 275C219.21 275 206 288.21 206 304.5C206 320.79 219.21 334 235.5 334Z" />
+		<path id="sm-mountain" class="shp2" d="M-27 432.37L43.31 357.93L65.05 383.4L95.15 329L138.89 384.73L159.15 388.82L187 424.3L187 432.37L-27 432.37Z" />
+		<path id="la-mountain" class="shp3" d="M107 439.84L127.7 400.51L170 385.32L216.49 316.6L238.66 346.73L250.53 336.22L299.7 257L340.02 319.57L366.35 332.51L395.51 377.77L426.84 387.91L456.97 412.71L461 440.96L107 439.84Z" />
+		<path id="water" class="shp4" d="M0 425L375 425L375 667L0 667L0 425Z" />
+		<g id="ripples">
+			<path id="Oval 2" class="shp5" d="M158 874C442.43 874 673 777.07 673 657.5C673 537.93 442.43 441 158 441C-126.43 441 -357 537.93 -357 657.5C-357 777.07 -126.43 874 158 874Z" />
+			<path id="Oval 2" class="shp5" d="M159.35 842.26C401.33 842.26 597.5 759.79 597.5 658.07C597.5 556.34 401.33 473.87 159.35 473.87C-82.64 473.87 -278.81 556.34 -278.81 658.07C-278.81 759.79 -82.64 842.26 159.35 842.26Z" />
+			<path id="Oval 2" class="shp5" d="M160.7 801.46C348.33 801.46 500.43 737.51 500.43 658.63C500.43 579.76 348.33 515.81 160.7 515.81C-26.94 515.81 -179.04 579.76 -179.04 658.63C-179.04 737.51 -26.94 801.46 160.7 801.46Z" />
+			<path id="Oval 2" class="shp5" d="M160.7 760.65C294.72 760.65 403.37 714.98 403.37 658.63C403.37 602.29 294.72 556.62 160.7 556.62C26.67 556.62 -81.97 602.29 -81.97 658.63C-81.97 714.98 26.67 760.65 160.7 760.65Z" />
+			<path id="Oval 2" class="shp5" d="M162.04 723.24C246.18 723.24 314.39 694.57 314.39 659.2C314.39 623.83 246.18 595.16 162.04 595.16C77.91 595.16 9.7 623.83 9.7 659.2C9.7 694.57 77.91 723.24 162.04 723.24Z" />
+			<path id="Oval 2" class="shp5" d="M162.04 692.64C205.97 692.64 241.59 677.67 241.59 659.2C241.59 640.73 205.97 625.76 162.04 625.76C118.11 625.76 82.5 640.73 82.5 659.2C82.5 677.67 118.11 692.64 162.04 692.64Z" />
+		</g>
+		<path id="sm-mountain reflection" class="shp6" d="M-27 424.42L43.31 484.65L65.05 464.05L95.15 508.06L138.89 462.97L159.15 459.66L187 430.95L187 424.42" />
+		<path id="la-mountain reflection" class="shp7" d="M107 424.76L127.7 451.25L170 461.48L216.49 507.77L238.66 487.48L250.53 494.56L299.7 547.92L340.02 505.77L366.35 497.06L395.51 466.57L426.84 459.74L456.97 443.03L461 424" />
+		<g id="tree">
+			<path id="Rectangle 2" class="shp8" d="M154.32 404.69L157.47 404.69L157.47 424L154.32 424L154.32 404.69Z" />
+			<path id="Triangle" class="shp9" d="M155.5 378L163 407.53L148 407.53L155.5 378Z" />
+			<path id="Triangle Copy" class="shp10" d="M155.5 388.35L163 398.7L148 398.7L155.5 388.35Z" />
+			<path id="Triangle" class="shp11" d="M155.5 378L163 392.77L148 392.77L155.5 378Z" />
+		</g>
+		<g id="tree reflection" style="opacity: 0.396">
+			<path id="Triangle" class="shp12" d="M155.5 461L163 437.25L148 437.25L155.5 461Z" />
+			<path id="Triangle Copy" class="shp13" d="M155.5 452.67L163 444.35L148 444.35L155.5 452.67Z" />
+			<path id="Triangle" class="shp14" d="M155.5 461L163 449.12L148 449.12L155.5 461Z" />
+			<path id="Rectangle 2" class="shp15" d="M154.32 439.53L157.47 439.53L157.47 424L154.32 424L154.32 439.53Z" />
+		</g>
+	</g>
+</svg>

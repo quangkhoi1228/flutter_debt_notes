@@ -11,11 +11,11 @@ class DBQueryResult {
 }
 
 class DBHelper {
-  static String databaseName = 'dept_walet.db';
+  static String databaseName = 'debt_walet.db';
   static Future<Database> database;
 
-  static Future<void> init() async {
-    DBHelper.database = createDatabase();
+  static Future<void> init({Function onCreate}) async {
+    DBHelper.database = createDatabase(onCreate: onCreate);
   }
 
   static void query({@required String query, Function callback}) async {
@@ -51,12 +51,10 @@ class DBHelper {
     });
   }
 
-  static Future<Database> createDatabase() {
+  static Future<Database> createDatabase({Function onCreate}) {
     return getDatabasesPath().then((defaultUrl) {
-      return openDatabase(
-        join(defaultUrl, DBHelper.databaseName),
-        version: 1,
-      );
+      return openDatabase(join(defaultUrl, DBHelper.databaseName),
+          version: 1, onCreate: onCreate);
     });
   }
 

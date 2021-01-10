@@ -1,4 +1,4 @@
-# Money Management - Flutter - SE346 UIT
+<!-- # Money Management - Flutter - SE346 UIT
 
 * __Built by: Hei Dun Luv__ - __`Hate and Love`__ 
   
@@ -60,4 +60,4 @@ for more detail information, check out [Document](https://github.com/huynguyen19
 [lich-su-giao-dich]: ./assets/showcase/lich-su-giao-dich.png
 [tai-khoan]: ./assets/showcase/tai-khoan.png
 [tao-giao-dich]: ./assets/showcase/tao-giao-dich.png
-[tong-quan]: ./assets/showcase/tong-quan.png
+[tong-quan]: ./assets/showcase/tong-quan.png -->
