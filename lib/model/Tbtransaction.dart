@@ -16,12 +16,12 @@ class Tbtransaction {
       this.status});
 
   void createTable() {
-    DBHelper.query(
+    DbHelper.query(
         query:
             'CREATE TABLE tbtransaction(id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, amount DECIMAL, createddate DATETIME, description TEXT, status BOOLEAN)');
   }
 
   void truncate() {
-    DBHelper.truncateTable('tbtransaction');
+    DbHelper.truncateTable('tbtransaction');
   }
 }

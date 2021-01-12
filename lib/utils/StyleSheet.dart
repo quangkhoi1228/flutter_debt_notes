@@ -1,14 +1,19 @@
-import 'dart:io';
+import 'dart:io' show Platform;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Css {
-  static Color isPrimary = Color(0xfffca072);
-  static Color isSecondary = Color(0xffe4d9c9);
+class Screen {
+  static width(double p, BuildContext context) {
+    return MediaQuery.of(context).size.width * (p / 100);
+  }
 
-  static Color mainBackground = Color(0xfff5f5f5);
+  static height(double p, BuildContext context) {
+    return MediaQuery.of(context).size.height * (p / 100);
+  }
+}
 
+class StyleSheet {
   static double searchHeight = 35.0;
   static double pageMenuHeight = (Platform.isAndroid) ? 50 : 50;
   static double pageTitleHeight = (Platform.isAndroid) ? 86 : 134;
@@ -34,7 +39,7 @@ class Css {
   static double fontSize = 15.0;
   static double fontSizeSmall = 10.0;
   static double fontSizeMedium = 20.0;
-  static double fontSizeLarge = 30.0;
+  static double fontSizeLarge = 25.0;
 
   static FontWeight fontWeight = FontWeight.normal;
   static FontWeight fontWeightLight = FontWeight.w400;
@@ -46,7 +51,7 @@ class Css {
   static double avatarBorderRadiusMedium = 50.0;
   static double avatarBorderRadiusLarge = 80.0;
 
-  static BorderRadius borderRadius = BorderRadius.circular(10.0);
+  static BorderRadius borderRadius = BorderRadius.circular(4.0);
   static BorderRadius borderRadiusRounded =
       BorderRadius.circular(avatarBorderRadiusLarge);
 
@@ -69,7 +74,7 @@ class Css {
   static Color isTransparent = Colors.transparent;
 
   static Color isGrey = Color(0xdddddddd);
-  static Color isText = Color(0xff4a4a4a);
+  static Color isText = Color(0x1b1b1616);
 
   static double navbarheight = 80.0;
   static double tabHeight = 40.0;
@@ -108,9 +113,4 @@ class Css {
   static double carouselHeight = 225.0;
 
   static double searchIconSize = 25.0;
-
-  static DecorationImage mainBackgroundImage = DecorationImage(
-    image: AssetImage("assets/images/background.png"),
-    fit: BoxFit.cover,
-  );
 }

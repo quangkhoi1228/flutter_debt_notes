@@ -31,11 +31,17 @@ dependencies:
   cupertino_icons: ^0.1.2
   salomon_bottom_bar: ^2.0.0
   flutter_svg: ^0.18.0
-  flutter_money_formatter: any
+  smart_select: ^4.3.2
+  flutter_money_formatter: ^0.8.3
+
+  font_awesome_flutter: ^8.11.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_launcher_name:
+  name: "Debt notes"
 
 flutter_icons:
   image_path: "assets/logo.png"
